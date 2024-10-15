@@ -145,5 +145,6 @@ class PaperData:
         return dic
 
 
+# https://github.com/epikepik/USA_ERW
 if __name__ == '__main__':
     PaperData(scen_id=1, unc_id=2, flx_name='CO2').main()
