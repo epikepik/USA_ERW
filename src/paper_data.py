@@ -3,7 +3,8 @@ import pickle
 import numpy as np
 import netCDF4 as nc
 
-
+# https://github.com/epikepik/USA_ERW
+# e.kantzas@sheffield.ac.uk
 class PaperData:
 
     def __init__(self, scen_id: int = 2, unc_id: int = 2,
@@ -146,5 +147,6 @@ class PaperData:
 
 
 # https://github.com/epikepik/USA_ERW
+# e.kantzas@sheffield.ac.uk
 if __name__ == '__main__':
     PaperData(scen_id=1, unc_id=2, flx_name='CO2').main()
